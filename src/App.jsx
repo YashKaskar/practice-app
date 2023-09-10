@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Counter from './Counter';
+import Face from './Face';
 
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
   return (
     <>
       <Counter />
+      <Face />
     </>
   )
 }
